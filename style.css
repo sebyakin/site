@@ -1,0 +1,64 @@
+
+:root {
+    --col: rgb(0,0,0);
+    
+  }
+
+::selection {
+    background-color: #222;
+    color: white;
+}
+
+html {
+    background-color: darkgrey;
+}
+
+body{
+    font-family: 'Exposit';
+    color:darkgray;
+    font-size: 1.3vw;
+    background-color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+ul {
+    color: white;  
+}
+
+li>span:hover {
+    background-color:var(--col);
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color:darkgray;
+}
+
+li>span:hover a {
+    color:yellow;
+}
+
+.line {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.face {
+
+}
+
+.magic {
+    flex: 11;
+}
+
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+
+     
