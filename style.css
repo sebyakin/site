@@ -1,3 +1,20 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Pickle-Standard-Italic";
+    src: url("./fonts/bb-bureau-Pickle-StandardItalic.eot"); /* IE9 Compat Modes */
+    src: url("./fonts/bb-bureau-Pickle-StandardItalic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("./fonts/bb-bureau-Pickle-StandardItalic.otf") format("opentype"), /* Open Type Font */
+      url("./fonts/bb-bureau-Pickle-StandardItalic.svg") format("svg"), /* Legacy iOS */
+      url("./fonts/bb-bureau-Pickle-StandardItalic.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("./fonts/bb-bureau-Pickle-StandardItalic.woff") format("woff"), /* Modern Browsers */
+      url("./fonts/bb-bureau-Pickle-StandardItalic.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
 
 :root {
     --col: rgb(0,0,0);
@@ -14,9 +31,9 @@ html {
 }
 
 body{
-    font-family: 'Exposit';
+    font-family: "Pickle-Standard-Italic";
     color:darkgray;
-    font-size: 1.3vw;
+    font-size: 36px;
     background-color: white;
     -webkit-font-smoothing: antialiased;
 }
@@ -45,8 +62,9 @@ li>span:hover a {
     flex-direction: row;
 }
 
-.face {
-
+.content {
+    padding: 15px;
+    width: 100%;
 }
 
 .magic {
